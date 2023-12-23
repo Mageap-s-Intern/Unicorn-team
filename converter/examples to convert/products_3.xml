@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2023-12-24 01:23">
+    <shop>
+        <currencies>
+            <currency id="UAH" rate="1"/>
+        </currencies>
+        <categories>
+                        <category id="215">Пуховики</category>
+                    </categories>
+        <offers>
+                         <offer id="38810" available="true">
+                <price>3000</price>
+                <url>https://msdrop.com.ua/catalog/38810</url>
+                <currencyId>UAH</currencyId>
+                <categoryId>215</categoryId>
+                <name>Пуховик Quadro лавандовий жіночий</name>
+                                <vendor>No name</vendor>
+                                <vendorCode>38810</vendorCode>
+                                <model>Quadro</model>
+                                                <description>
+                    
+                                            Матеріал: якісна водовідштовхуюча плащівка;
+Утеплювач: екопух високої якості, аналог натурального;
+Оверсайз крій;
+Капюшон знімається
+Розміри: S/M , L/XL
+
+Розмір S\M
+
+Напівобхват грудей 59
+Довжина рукава 70
+Довжина по спині 61
+
+Розмір L\XL
+
+Напівобхват грудей 60
+Довжина рукава 74
+Довжина по спині 65
+                </description>
+                                                                         <picture>https://msdrop.com.ua/media/198051/original.jpg</picture>                                     <picture>https://msdrop.com.ua/media/198054/original.jpg</picture>                                     <picture>https://msdrop.com.ua/media/198049/original.jpg</picture>                                     <picture>https://msdrop.com.ua/media/198050/original.jpg</picture>                                     <picture>https://msdrop.com.ua/media/198052/original.jpg</picture>                                     <picture>https://msdrop.com.ua/media/198053/original.jpg</picture>                                                                      <param name="Цвет"> лаванда </param>
+                                                    <param name="Вес"> 5000 </param>
+                                                    <param name="Страна производитель"> Украина </param>
+                                <quantity_in_stock>20</quantity_in_stock>
+                                                <sizes>
+                                        <size name="S"> 10</size>
+                                        <size name="L"> 10</size>
+                                </sizes>
+                                 
+            </offer>
+                    </offers>
+    </shop>
+</yml_catalog>
