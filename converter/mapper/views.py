@@ -12,7 +12,9 @@ def handle_uploaded_file(f):
 
 def convert_xml(request):
     if request.method == "POST":
-        handle_uploaded_file(request.FILES['input_file'])
+        try:
+            handle_uploaded_file(request.FILES['input_file'])
+        except: pass
         mapping.xml_mapping('media/input_file.xml', 'mapper/maper/stop_list.csv')
         print('Файл прошел конвертацию!')
 
