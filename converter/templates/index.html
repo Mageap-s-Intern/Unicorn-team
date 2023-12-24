@@ -12,12 +12,10 @@
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <div class="mb-3">
-            <input type="file" class="form-control" id="inputGroupFile02" name="input_file">
+            {{ form }}
+<!--            <input type="file" class="form-control" id="inputGroupFile02" name="input_file">-->
             <button class="btn btn-primary" type="submit" id="inputGroupFileAddon04">Submit</button>
         </div>
-<!--        <div class="mb-3">-->
-<!--            <button type="button" class="btn btn-primary btn-lg">Download file for Rozetka</button>-->
-<!--        </div>-->
         <a href="{{ file }}" download>Download result</a>
     </form>
 </div>
