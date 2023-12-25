@@ -16,9 +16,13 @@
 <!--            <input type="file" class="form-control" id="inputGroupFile02" name="input_file">-->
             <button class="btn btn-primary" type="submit" id="inputGroupFileAddon04">Submit</button>
         </div>
-        <a href="{{ file }}" download>Download result</a>
+        {% if request.method == "POST" %}
+            <a href="{{ file }}" download>Download result</a>
+        {% else %}
+            <a>No file</a>    
+        {% endif %}
         <div>
-        <a href="{% url 'logout' %}">Logout</a>
+            <a href="{% url 'logout' %}">Logout</a>
         </div>
     </form>
 </div>
