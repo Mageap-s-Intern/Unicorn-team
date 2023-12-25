@@ -11,9 +11,6 @@
     <div class="container">
         <h1>Welcome!</h1>
             {% if request.user.is_authenticated %}
-            <p>{{ request.user.username }}</p>
-            <a href="{% url 'logout' %}">Logout</a>
-            <a href="{% url 'convert' %}">Convert</a>
             {% else %}
             <a href="{% url 'login' %}">Login</a>
             <a href="{% url 'signup' %}">Signup</a>
