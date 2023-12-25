@@ -13,13 +13,12 @@
         {% csrf_token %}
         <div class="mb-3">
             {{ form }}
-<!--            <input type="file" class="form-control" id="inputGroupFile02" name="input_file">-->
             <button class="btn btn-primary" type="submit" id="inputGroupFileAddon04">Submit</button>
         </div>
-        {% if request.method == "POST" %}
+        {% if file %}
             <a href="{{ file }}" download>Download result</a>
         {% else %}
-            <a>No file</a>    
+            <a>No file</a>
         {% endif %}
         <div>
             <a href="{% url 'logout' %}">Logout</a>

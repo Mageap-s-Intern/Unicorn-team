@@ -18,7 +18,8 @@ def convert_xml(request):
             handle_uploaded_file(form.cleaned_data['file'])
             mapping.xml_mapping('media/input_file.xml', 'mapper/maper/stop_list.csv')
             print('Файл прошел конвертацию!')
+            return render(request, 'index.html', {'file': 'media/output.xml', 'form': form})
     else:
         form = UploadFileForm()
 
-    return render(request, 'index.html', {'file': 'media/output.xml', 'form': form})
+    return render(request, 'index.html', {'file': '', 'form': form})
