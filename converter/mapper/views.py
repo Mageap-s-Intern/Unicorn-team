@@ -1,7 +1,7 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from .maper import mapping
-from .forms import UploadFileForm
+from mapper.forms import UploadFileForm
 
 
 # Create your views here.

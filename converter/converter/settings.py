@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mapper',
+    'reg_and_log',
 ]
 
 MIDDLEWARE = [
@@ -112,7 +113,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-MEDIA_URL = '/media/'
+MEDIA_URL = 'convert/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 # Default primary key field type
