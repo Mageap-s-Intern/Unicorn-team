@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-from stoplist_encoding import stoplist_encoding
+from .stoplist_encoding import stoplist_encoding
 
 
 def parse_element(element):
@@ -219,11 +219,11 @@ def xml_mapping(path_to_xml, stop_list_csv):
 
         # Создание XML файла
         tree = ET.ElementTree(root)
-        tree.write("maper/output.xml", encoding="utf-8", xml_declaration=True)
+        tree.write("media/output.xml", encoding="utf-8", xml_declaration=True)
 
     except Exception as e:
         print("Неподходящая структура файла")
 
 
 # Пример вызова функции
-xml_mapping("maper/products.xml", "maper/stop_list.csv")
+# xml_mapping("products.xml", "stop_list.csv")
