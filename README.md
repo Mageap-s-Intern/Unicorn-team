@@ -13,4 +13,4 @@ source myenv/bin/activate
 Install Dependencies from requirements.txt:
 pip install -r path/to/requirements.txt
 Run the server:
-http://127.0.0.1:8000/
+python manage.py runserver
